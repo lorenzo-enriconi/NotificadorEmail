@@ -38,15 +38,15 @@ Crie um arquivo chamado .env na raiz do projeto e preencha com suas informaçõe
 Snippet de código
 
 # Configurações de Email
-EMAIL_USER=seu_email@gmail.com
-EMAIL_PASS=sua_senha_de_app
-TARGET_SENDER=remetente@exemplo.com
+- EMAIL_USER=seu_email@gmail.com
+- EMAIL_PASS=sua_senha_de_app
+- TARGET_SENDER=remetente@exemplo.com
 
 # Configurações Twilio
-TWILIO_SID=seu_sid_aqui
-TWILIO_TOKEN=seu_token_aqui
-TWILIO_ZAP_NUMBER=whatsapp:+14155238886
-MEU_ZAP=whatsapp:+5511999999999
+- TWILIO_SID=seu_sid_aqui
+- TWILIO_TOKEN=seu_token_aqui
+- TWILIO_ZAP_NUMBER=whatsapp:+14155238886
+- MEU_ZAP=whatsapp:+5511999999999
 
 # 🖥️ Como usar
 Basta executar o script principal:
